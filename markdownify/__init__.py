@@ -46,7 +46,7 @@ class MarkdownConverter(object):
         convert = None
         autolinks = True
         heading_style = UNDERLINED
-        bullets = '*+-'  # An iterable of bullet types.
+        bullets = '*'  # An iterable of bullet types.
 
     class Options(DefaultOptions):
         pass
